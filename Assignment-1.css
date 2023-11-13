@@ -1,0 +1,75 @@
+body {
+	background-color: RGB(73, 18, 246);
+	font-family: Arial;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input[type='button'] {
+	border: 0px;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	padding: 15px 20px;
+	background: orange;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30PX;;
+}
+
+.section1 {
+	margin-left: 20px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.section-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.function {
+	flex: 0 0 450px;
+	color: RGB(201, 184, 252);
+	z-index: 1;
+    margin-right: -69px;
+    margin-top: 45px;
+}
+
+.picture-1 {
+	flex: 0 1 900px;
+}
+
+.section2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0px;
+}
+
+.patented-technology {
+	flex: 0 1 500px;
+	margin-right: 50px;
+}
+
+.brain {
+	flex: 0 1 400px;
+} 
